@@ -56,7 +56,7 @@ Rectangle {
                 id: rotationAnimator
                 from: 0
                 to: 360
-                duration: 1500
+                duration: 2500
                 loops: Animation.Infinite
             }
         }
@@ -89,7 +89,7 @@ Rectangle {
         target: content
         from: 0
         to: 1
-        duration: 500
+        duration: 1500
         easing.type: Easing.InOutQuad
     }
 }
